@@ -6,7 +6,8 @@
 }
 
 input,
-select {
+select,
+.bnt {
   outline: 0;
   border: 0;
 }
@@ -176,10 +177,15 @@ p {
   border-bottom: rgb(2, 2, 90) solid 1px;
 }
 
-.formulario form div {
+.formulario form div,
+.main_body_servico_article {
   flex-basis: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.main_body_servico_article a {
+  padding: 15px 0;
 }
 
 .formulario form .radio {
@@ -199,7 +205,8 @@ p {
   border: rgb(2, 2, 90) solid 1px;
 }
 
-.formulario form div input[type="button"] {
+.formulario form div input[type="button"],
+.bnt {
   padding: 5px 15px;
   color: #fff;
   font-size: 1em;
