@@ -184,6 +184,10 @@ p {
   justify-content: space-between;
 }
 
+.main_body_servico_article {
+  margin: 17px 0;
+}
+
 .main_body_servico_article a {
   padding: 15px 0;
 }
@@ -216,7 +220,8 @@ p {
 
 /* footer */
 
-.main_footer {
+.main_footer,
+.main_footer_social {
   max-width: 900px;
   margin: 0 auto;
   display: flex;
@@ -225,27 +230,39 @@ p {
   color: rgb(129, 129, 217);
 }
 
+.main_footer_social {
+  background-color: #fff;
+}
+
 .main_footer_moodle {
   width: 1170px;
   margin: 0 auto;
   color: rgb(0, 0, 49);
 }
 
-.main_footer_moodle .redes_sociais ul {
+.main_footer_moodle .redes_sociais ul,
+.main_footer_social .redes_sociais ul {
   display: flex;
   flex-wrap: wrap;
   padding: 2px;
 }
 
 .main_footer ul li,
-.main_footer_moodle ul li {
+.main_footer_moodle ul li,
+.main_footer_social ul li {
   list-style: none;
   display: flex;
   padding: 20px 40px 20px 0;
 }
 
-.main_footer_moodle ul li {
+.main_footer_moodle ul li,
+.main_footer_social ul li {
   justify-content: stretch;
+}
+
+.main_footer_social ul li a {
+  margin: 4px 0;
+  color: rgb(129, 129, 217);
 }
 
 .main_footer ul li a,
